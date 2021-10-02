@@ -111,7 +111,6 @@ class Agent:
         # if bird.x > pipe_width and pipe_width < 30:
             # nx_pipe_dist = pipes[pipe_idx].bottom - pipes[pipe_]
 
-
         return np.array(state, dtype=int)
 
     def remember(self, state, action, reward, next_state, done):
